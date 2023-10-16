@@ -3,3 +3,23 @@ body {
   margin: 0;
   padding: 0;
 }
+.parent {
+  height: 100%;
+  display: flex;
+  align-items: center; /* horizontal */
+  /* justify-content: center; */
+  flex-flow: column;
+}
+
+.p5Canvas {
+  /* div takes up specified space and browser splits remaining space evenly. Margin is outside */
+  /*margin: auto;*/
+  /* taken out of normal document flow */
+  /*position: absolute;*/
+  /*top: 50%; line up top edge of the div with center of page vertically 50% down*/
+
+  /* translate up 50% of itself*/
+  /* transform: translate(0, -50%);*/
+  /*left: 50%;
+  transform: translate(-50%, 0);*/
+}
